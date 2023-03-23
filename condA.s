@@ -22,7 +22,7 @@ A:	mov rbx, QWORD PTR[data1]
 	cmp rax, rbx
 	jne B
 	inc rcx
-B:	mov rbx, QWPRD PTR[data2]
+B:	mov rbx, QWORD PTR[data2]
 	and rbx, 0xf
 	cmp rax, rbx
 	jne C
