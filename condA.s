@@ -17,7 +17,7 @@ _start:
 	cmp rax, rbx
 	jne A
 	inc rcx
-A:	 mov rbx, QWORD PTR[data1]
+A:	mov rbx, QWORD PTR[data1]
 	and rbx, 0xf
 	cmp rax, rbx
 	jne B
