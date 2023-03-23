@@ -10,7 +10,7 @@ data3:	 .quad 0xface
 	.global _start
 
 _start:
-	xor, rcx, rcx
+	xor rcx, rcx
 	and rax, 0xf
 	mov rbx, QWORD PTR[data0]
 	and rbf, 0xf
